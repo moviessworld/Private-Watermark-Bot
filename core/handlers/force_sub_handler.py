@@ -35,8 +35,7 @@ async def handle_force_subscribe(bot, cmd):
                         InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
                     ]
                 ]
-            ),
-            parse_mode="markdown"
+            )
         )
         return 400
     except Exception:
